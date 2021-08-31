@@ -1,0 +1,28 @@
+# DATASET
+このREADMEにはデータセットの形式に関してまとめています。
+
+# Object Detection
+
+  * 拡張子は txt, jpg で統一
+  * フォルダ名，日本語名は半角英数のみ
+  * 画像サイズはmin: 720, max:1080
+  * jpgに対して必ず同名のtxtファイルが存在すること
+  * 各フォルダの中身は アノテーションしたtxt及びjpgファイルのみ
+  * txt形式は YOLO形式
+
+ファイル名が重複している場合は、[rename.py](./script/labels/rename.py)を利用して一括してファイル名を任意桁数のランダム英数文字列に変換することができます。darknetでの学習の場合は必要ありませんが、createMLの場合はすべてのファイルを同一のディレクトリに置く必要があるため、ファイル名の重複を事前に避けておく必要があります。
+
+## TMUラベル
+2021年8月31日現在、都立大で作成しているデータセットは[39クラス（script/labels/names_c39.txt）](./script/labels/names_c39.txt)にて開発しています。例外はないです。
+
+## CSIラベル
+2021年8月31日現在、CSIで作成しているデータセットには
+
+  * [39クラス](./script/labels/names_c39.txt)
+  * [50クラス](./script/labels/names_c50.txt)
+  * [70クラス](./script/labels/names_c70.txt)（remapLabel.pyを利用して50クラスに変換）
+
+  の計3種類のものがあります。csiの場合はディレクトリ名末尾に_c39, _c50, _c70として、クラス数を判別できるように名前付けしています。ただし50クラスのデータセットに関しては、ベースは70クラスのものになっており、それを [remapLabel.py](./script/remapLabel.py) を用いて自動変換させています。
+
+  # Segmentation
+  TBA
