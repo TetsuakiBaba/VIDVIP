@@ -1,0 +1,42 @@
+Number, Name, Count
+0,person,25283
+1,bicycle,3321
+2,car,37593
+3,motorbike,1461
+4,bus,1109
+5,train,489
+6,truck,3416
+7,boat,0
+8,traffic_light,3239
+9,bicycler,4237
+10,braille_block,58923
+11,guardrail,28292
+12,white_line,28215
+13,crosswalk,17586
+14,signal_button,804
+15,signal_red,2217
+16,signal_blue,1577
+17,stairs,2801
+18,handrail,3434
+19,steps,68894
+20,faregates,680
+21,train_ticket_machine,20
+22,shrubs,53249
+23,tree,24066
+24,vending_machine,1110
+25,bathroom,43
+26,door,856
+27,elevator,65
+28,escalator,55
+29,bollard,14534
+30,bus_stop_sign,571
+31,pole,41398
+32,monument,532
+33,fence,32805
+34,wall,42472
+35,signboard,5065
+36,flag,4416
+37,postbox,574
+38,safety-cone,4696
+Total Annotation,520098
+Total File,30471

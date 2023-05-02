@@ -1,0 +1,14 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+cff-version: 1.2.0
+title: "VIDVIP Dataset"
+message: "If you use this dataset, software or code, please cite it as below"
+url: "https://tetsuakibaba.jp/project/vidvip/"
+data-released: "2023-04-14"
+type: dataset
+authors:
+  - given-names: "Tetsuaki"
+    family-names: "Baba"
+    email: "baba@tmu.ac.jp"
+    affiliation: "Tokyo Metropolitan University"
+    orcid: "https://orcid.org/0000-0003-1792-881X"

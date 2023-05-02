@@ -1,0 +1,10 @@
+person
+bicycle
+car
+motorbike
+bus
+train
+truck
+boat
+traffic_light
+bicycler
